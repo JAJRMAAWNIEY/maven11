@@ -1,6 +1,7 @@
 FROM centos
 MAINTAINER devops2018 <devopstraining2015@gmail.com>
 #RUN apt-get update -y
+#
 RUN yum install git -y
 RUN git config --global user.name "DevOps Training"
 RUN git config --global user.email "polarapuprasad@gmail.com"
